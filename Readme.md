@@ -36,3 +36,5 @@
 <img src="readme_images\管理员系统.png">
 试衣间
 <img src="readme_images\女模.png">
+
+本项目采用MIT许可证，详情请见LICENSE文件。
