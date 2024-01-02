@@ -1,0 +1,28 @@
+ .disc{
+    margin: 0px auto;
+} 
+.discu p {
+    font-size:18px; margin:20px 0 5px 0px;color: #2088b8;
+}
+.discu textarea {
+    width:100%; margin:10px 0px 15px 0px; 
+}
+.discu .buynow {
+    float:right;margin-bottom:20px;
+}
+.discu .discu_lyr {
+    margin:10px 100px 15px 0px;
+}
+.discu .discu_submit {
+    background-color: #a6a7eb;
+    border-color: #d2a6eb;
+    color: white;
+    float: right;
+    width: 60px;
+}
+.discu_display{
+    margin-left: 0;
+}
+
+
+

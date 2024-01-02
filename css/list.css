@@ -1,0 +1,63 @@
+hr{
+    color: transparent;
+    border:none;
+}
+h2{
+    color: #00bf00;
+}
+
+
+.table
+{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+th {
+
+    color: #4f6b72;
+    border-right: 1px solid #ddbfee;
+    border-bottom: 1px solid #ddbfee;
+    border-top: 1px solid #ddbfee;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 6px 6px 6px 12px;
+    background: #ddbfee no-repeat;
+}
+td {
+    border-right: 1px solid #C1DAD7;
+    border-bottom: 1px solid #C1DAD7;
+    background: #fff;
+    font-size:14px;
+    padding: 6px 6px 6px 12px;
+    color: #4f6b72;
+}
+td.alt {
+    background: #F5FAFA;
+    color: #797268;
+}
+th.spec,td.spec {
+    border-left: 1px solid #C1DAD7;
+}
+html>body td{ font-size:14px;}
+tr.select th,tr.select td
+{
+    background-color:#CAE8EA;
+    color: #797268;
+}
+.btn_cart {
+    display: block;
+    margin: 10px 10px 20px 10px;
+    padding: auto;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background-color:#d2a6eb;
+    border-radius: 7px;
+    border: 1px solid #d2a6eb;
+    font-size: 20px;
+}
+.float_r {
+    float: right;
+}

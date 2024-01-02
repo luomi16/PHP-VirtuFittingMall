@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.top .logo {
+    padding-left: 40px;
+  }
+  .top .title {
+    font-size: 30px;
+    line-height: 50px;
+    color: #8da9eb;
+    float: right;
+    padding-right: 40px;
+  }
+  .title:hover {
+    text-decoration: none;
+  }
+
+
+  .caidan{
+    width: 330px;
+    height: 500px;
+    /* 将元素隐藏 */
+    display: none;
+    float: left;
+    margin:0 10px;
+    border:1px solid rgb(209, 186, 223);
+    border-radius: 20px;
+    background-color: rgb(209, 186, 223,0.4);
+}
+
+.shiyijian{
+    width: 860px;
+    height: 580px;
+    float: left;
+}
+
+.navH{
+    font-size: 20px;
+    font-weight: 500px;
+    text-align: center;
+    text-decoration: solid;
+    color: rgb(105, 62, 146);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.menu{
+    width:300px;
+    margin:5px 15px;
+}
+
+.menu .level1,.menu li ul a{
+    display:block;
+    width:300px;
+    height:30px;
+    line-height:30px;
+    text-decoration:none;
+    background-color:rgb(141,169,235);
+    color:#fff;
+    font-size:16px;
+    text-indent:10px;			
+}
+
+.menu .level1{
+    border-bottom:1px solid #afc6f6;
+    
+}
+
+.menu li ul a{
+    font-size:14px;
+    text-indent:20px;
+    background-color:#7aa1ef;
+            
+}
+
+.menu li ul{
+    display:none;
+}
+
+.menu li ul.current{
+    display:none;
+}
+
+.anniu {
+    margin-left: 35px;
+}
+.open1{
+    border-radius: 20px 0 0 0;
+    float: left;
+    width: 40px;
+    height: 30px;
+    background-color: rgb(209, 186, 223,0.7);
+    color: rgb(80, 94, 158);
+}
+
+.close1{
+    border-radius: 0 20px 0 0;
+    /* float: left; */
+    width: 40px;
+    height: 30px;
+    background-color: rgb(209, 186, 223,0.7);
+    color: rgb(80, 94, 158);
+}
+
+.current button img{
+    width: 120px;
+}
+.btn {
+    padding: 5px 10px;
+    background-color: rgba(244, 244, 248, 0.5) !important;
+}
+button :hover {
+    border: none;
+}
